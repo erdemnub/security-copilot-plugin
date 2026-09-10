@@ -9,31 +9,24 @@ Developing my plugin is a lightweight API that evaluates users and devices again
 The project is designed as a foundation for future Microsoft Security Copilot plugin integrations.
 
 ## Features
- 
 ### Device Analysis
- 
 - Software inventory inspection
 - CVE correlation
 - Vulnerability findings generation
 - Device risk scoring
  
 ### User Analysis
- 
 - MFA status verification
 - Privileged role analysis
 - Security findings generation
 - User risk scoring
  
 ## API Endpoints
- 
 ### Analyze Device
- 
 ```http
 GET /analyze-device?hostname=PC-001
 ```
- 
 Example Response
- 
 ```json
 {
 "hostname": "PC-001",
@@ -49,13 +42,10 @@ Example Response
 ```
  
 ### Analyze User
- 
 ```http
 GET /analyze-user?upn=admin@company.com
 ```
- 
 Example Response
- 
 ```json
 {
 "upn": "admin@company.com",
@@ -84,22 +74,18 @@ src/
 ```
  
 ## Security Copilot Integration
- 
 The project includes:
- 
 - Plugin Manifest
 - OpenAPI Specification
 - Security Analysis Endpoints
  
 Future versions will integrate:
- 
 - Microsoft Graph API
 - Microsoft Defender
 - Microsoft Sentinel
 - Real-time CVE data sources
  
-## Roadmap
- 
+## Development Process
 - [x] Device analysis
 - [x] CVE matching
 - [x] Risk scoring
@@ -111,21 +97,17 @@ Future versions will integrate:
 - [ ] GitHub Actions CI/CD
  
 ## Installation
- 
 Install dependencies
- 
 ```bash
 npm install
 ```
  
 Run development server
- 
 ```bash
 npm run dev
 ```
  
 Access API
- 
 ```text
 http://localhost:3000
 ```

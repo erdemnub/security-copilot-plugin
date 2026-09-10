@@ -80,10 +80,10 @@ The project includes:
 - Security Analysis Endpoints
  
 Future versions will integrate:
-- Microsoft Graph API
-- Microsoft Defender
-- Microsoft Sentinel
-- Real-time CVE data sources
+- Microsoft Graph API (in process)
+- Microsoft Defender (in process)
+- Microsoft Sentinel (in process)
+- Real-time CVE data sources 
  
 ## Development Process
 - [x] Device analysis

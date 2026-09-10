@@ -1,0 +1,11 @@
+Descriptor:
+  name: SecurityCopilotPlugin
+  displayname: Security Copilot Plugin
+  description: A plugin that provides security-related information and insights.
+  version: 1.0.0
+
+  SkillGroups:
+    -Format : OpenApi
+    Setting:
+      OpenApiSpecUrl: http://localhost:3000/openapi.yaml
+      

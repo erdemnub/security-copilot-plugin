@@ -1,0 +1,38 @@
+openapi : 3.0.1
+
+info:
+  title: Security Copilot API
+  version: 1.0.0
+paths:
+  /analyze-device:
+    get:
+      operationId: analyzeDevice
+      summary: Analyze device vulnerabilities
+      
+      parameters:
+        - name: hostname
+          in: query
+          required: true
+          schema:
+            type: string
+      
+      responses:
+        '200':
+          description: Device analysis result
+  
+
+  analyze-user:
+    get:
+      operationId: AnalyzeUser
+      summary: Analyze user security posture
+
+      parameters:
+        - name: upn
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User analysis result
+          

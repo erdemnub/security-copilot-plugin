@@ -4,7 +4,7 @@ Hello Everyone !
 
 A TypeScript-based security analysis API designed for Microsoft Security Copilot integrations. 
 
-Security Posture Analyzer is a lightweight API that evaluates users and devices against predefined security controls and vulnerability data.
+Developing my plugin is a lightweight API that evaluates users and devices against predefined security controls and vulnerability data.
 
 The project is designed as a foundation for future Microsoft Security Copilot plugin integrations.
 
